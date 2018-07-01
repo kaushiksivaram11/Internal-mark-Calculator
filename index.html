@@ -1,0 +1,46 @@
+<html>
+<head>
+
+
+
+<h1><center>INTERNAL MARKS CALCULATION SYSTEM</center></h1>
+
+</head>
+<body>
+
+<center>
+<div id="i1" style="border:2px solid red;border-radius:20px;width:400px;background-color:#FF1493;float:right;margin-right:200px;">
+<h1>Faculty Operations</h1>
+
+
+<form action="insertrec.php">
+<input type="submit" value="Insert" style="background-color:yellow;width:200px;height:50px;"/>
+</form>
+
+<form action="deletetb.php">
+<input type="submit" value="Delete"style="background-color:yellow;width:200px;height:50px;"/>
+</form>
+<form action="up.html">
+<input type="submit" value="Update "style="background-color:yellow;width:200px;height:50px;"/>
+</form>
+<form action="calc.html">
+<input type="submit" value="Calculate "style="background-color:yellow;width:200px;height:50px;"/>
+</form>
+<form action="list.html">
+<input type="submit" value="List the records"style="background-color:yellow;width:200px;height:50px;"/>
+</form>
+</div>
+<div id="i2" style="border:2px solid red;border-radius:20px;width:400px;background-color:#FF6633;float:left;margin-left:300px;margin-top:20px;">
+<h1>Student Operations</h1>
+<form method="post" action = "stud.php">
+Enter Register number:<input type="text" name="reg" style="width:200px;"/><br/>
+Enter Subject Code:
+<select  name="sub">
+<option value ="cs6501" > CS6501</option>
+<option value ="cs6502"> CS6502 </option>
+<option value ="cs6503"> CS6503</option>
+</select>
+<input type="submit" value="View Internal Marks" name="submit" style="margin-top:20px;"/>
+</form>
+</div>
+</center></body></html>
